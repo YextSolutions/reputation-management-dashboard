@@ -1,0 +1,23 @@
+{
+  "$id": "repManagement_Reviews_by_Ratings",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Reviews by Ratings",
+  "description": "Reviews by Ratings",
+  "query": {
+    "metrics": [
+      "yext/NEW_REVIEWS"
+    ],
+    "dimensions": [
+      "yext/RATINGS"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "WEEKS_12"
+      }
+    ]
+  },
+  "display": {
+    "pie": {}
+  }
+}

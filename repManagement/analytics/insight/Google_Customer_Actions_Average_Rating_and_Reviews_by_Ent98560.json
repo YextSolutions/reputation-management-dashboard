@@ -1,0 +1,37 @@
+{
+  "$id": "repManagement_Google_Customer_Actions_Average_Rating_and_Reviews_by_Ent",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Google Customer Actions, Average Rating, and Reviews by Entity",
+  "description": "Google Customer Actions, Average Rating, and Reviews by Entity",
+  "query": {
+    "metrics": [
+      "yext/AVERAGE_RATING",
+      "yext/GOOGLE_CUSTOMER_ACTIONS",
+      "yext/NEW_REVIEWS"
+    ],
+    "fields": [
+      "entityId",
+      "name",
+      "yext/derivedField-city"
+    ],
+    "dimensions": [
+      "yext/ENTITIES"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "WEEKS_12"
+      }
+    ]
+  },
+  "display": {
+    "table": {
+      "sort": {
+        "column": {
+          "metric": "yext/AVERAGE_RATING"
+        },
+        "descending": true
+      }
+    }
+  }
+}

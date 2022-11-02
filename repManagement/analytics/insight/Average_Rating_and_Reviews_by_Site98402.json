@@ -1,0 +1,31 @@
+{
+  "$id": "repManagement_Average_Rating_and_Reviews_by_Site",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Average Rating and Reviews by Site",
+  "description": "Average Rating and Reviews by Site",
+  "query": {
+    "metrics": [
+      "yext/AVERAGE_RATING",
+      "yext/NEW_REVIEWS"
+    ],
+    "dimensions": [
+      "yext/PARTNERS"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "WEEKS_12"
+      }
+    ]
+  },
+  "display": {
+    "table": {
+      "sort": {
+        "column": {
+          "metric": "yext/NEW_REVIEWS"
+        },
+        "descending": true
+      }
+    }
+  }
+}

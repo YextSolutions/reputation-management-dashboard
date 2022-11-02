@@ -1,0 +1,76 @@
+{
+  "$id": "repManagement_dashboard",
+  "$schema": "https://schema.yext.com/config/analytics/dashboard/v1",
+  "name": "Reputation Management",
+  "insights": [
+    {
+      "insight": "REVIEWS-MAP",
+      "x": 0,
+      "y": 0,
+      "width": 4,
+      "height": 2
+    },
+    {
+      "insight": "REVIEWS-OVERVIEW",
+      "x": 4,
+      "y": 0,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "REVIEW-RATING-PIE",
+      "x": 4,
+      "y": 1,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "REVIEW-DISTRIBUTION-OVER-TIME",
+      "x": 0,
+      "y": 2,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "repManagement_Reviews_by_Week_and_Ratings",
+      "x": 2,
+      "y": 2,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "repManagement_Reviews_by_Ratings",
+      "x": 4,
+      "y": 2,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "ROLLING-AVERAGE-RATING",
+      "x": 0,
+      "y": 3,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "repManagement_Google_Customer_Actions_Average_Rating_and_Reviews_by_Ent",
+      "x": 3,
+      "y": 3,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "insight": "repManagement_Average_Rating_and_Reviews_by_Site",
+      "x": 0,
+      "y": 4,
+      "width": 3,
+      "height": 1
+    }
+  ],
+  "filters": [
+    {
+      "filter": "yext/date",
+      "in": "WEEKS_12"
+    }
+  ]
+}
