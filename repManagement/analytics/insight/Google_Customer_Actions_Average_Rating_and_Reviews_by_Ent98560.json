@@ -8,7 +8,7 @@
       "yext/AVERAGE_RATING",
       "yext/GOOGLE_CUSTOMER_ACTIONS",
       "yext/NEW_REVIEWS",
-      "yext/LISTINGS_IMPRESSIONS"
+      "yext/TOTAL_LISTINGS_IMPRESSIONS"
     ],
     "fields": [
       "entityId",
