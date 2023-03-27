@@ -6,7 +6,7 @@
   "query": {
     "metrics": [
       "yext/AVERAGE_RATING",
-      "yext/GOOGLE_CUSTOMER_ACTIONS",
+      "yext/LISTINGS_ACTIONS",
       "yext/NEW_REVIEWS",
       "yext/TOTAL_LISTINGS_IMPRESSIONS"
     ],
@@ -16,7 +16,7 @@
       "yext/derivedField-city"
     ],
     "dimensions": [
-      "yext/ENTITIES"
+      "yext/ENTITY_IDS"
     ],
     "filters": [
       {
