@@ -16,7 +16,7 @@
       "yext/derivedField-city"
     ],
     "dimensions": [
-      "yext/ENTITY_IDS"
+      "yext/ENTITIES"
     ],
     "filters": [
       {
